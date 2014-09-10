@@ -1,107 +1,95 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Astral 2.5 by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Dinh Huynh</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400" rel="stylesheet" />
+		<script src="js/jquery.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel-noscript.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-desktop.css" />
+			<link rel="stylesheet" href="css/noscript.css" />
+		</noscript>
+		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
+	</head>
+	<body class="homepage">
 
-<html lang="en" ">
-<head>
-	<meta charset="utf-8" />
-	<script type="text/javascript" src="js/angular.js"></script>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css">
-	<link rel="stylesheet" type="text/css" href="css/custom.css">
-	<link rel="stylesheet" type="text/css" href="css/mbTabset.css">
-	<script src="js/jquery-1.10.2.min.js"></script>	
-	<script src="js/jquery.leanModal.min.js"></script>
-	<script src="js/bootstrap.js"></script>
-	<script src="js/bootstrap_modal.js"></script>
-	<script src="js/holder.js"></script>
-	<script type="text/javascript" src="js/ui.core.min.js"></script>
-	<script type="text/javascript" src="js/jquery.metadata.js"></script>
-	<script type="text/javascript" src="js/mbTabset.min.js"></script>
-	<script type="text/javascript" src="js/custom.js"></script>
-	<title></title>
+		<!-- Wrapper-->
+			<div id="wrapper">
+				
+				<!-- Nav -->
+					<nav id="nav">
+						<a href="#me" class="fa fa-home active"><span>Home</span></a>
+						<a href="#work" class="fa fa-folder"><span>Projects</span></a>
+						<a href="#blog" class="fa fa-pencil-square-o"><span>Resume</span></a>
+						<a href="https://github.com/DinhH" class="fa fa-github"><span>Github</span></a>
+					</nav>
 
-</head>
-<body>
-	<div class="bg">
-		<div class="row" id="main_panel">
-			<div class="col-md-3 pic">				
-				<p class="intro">
-					<b>Dinh Huynh </b><br>
-					UT Austin 2016 <br>
-					BS in Computer Science
-				</p>
-				<img src="img/me2.jpg" width="150" height="150" alt="..." class="img-rounded">    			
-				<div style="margin-top:10px">
-					<a href="https://www.facebook.com/dinh.huynh.54">facebook</a> 
-				</div>
-				<div><a href="https://www.linkedin.com/profile/view?id=304251569&trk=spm_pic">linkedin</a></div>
-				<div><a href="https://github.com/DinhH">github</a></div>
-			
+				<!-- Main -->
+					<div id="main">
+						
+						<!-- Me -->
+							<article id="me" class="panel">
+								<header>
+									<h1>Dinh Huynh</h1>
+									<span class="byline">Engineer / Developer</span>
+								</header>
+								<a href="#work" class="jumplink pic">
+									<span class="jumplink arrow fa fa-chevron-right"><span>See my work</span></span>
+									<img src="images/me1.jpeg" alt="" />
+								</a>
+							</article>
+
+						<!-- Work --> 
+							<article id="work" class="panel">
+								<header>
+									<h2>Projects</h2>
+								</header>
+								<p>
+									I've been developing a fairly simple two-player javascript game with a unique concept.
+									As of now, I'm working with node.js and socketing to develop an online matchmaking system. 
+								</p>
+								<section class="is-gallery">
+									<div class="row half">
+										<div class="8u">
+											<a href="http://flypixel.com/knob/3495684098026313" class="image image-full"><img src="images/Camouflage.png" alt=""></a>
+										</div>
+										<div class="4u">
+											<a href="http://flypixel.com/contact-login-form/8829734266026310" class="image image-full"><img style="width: 250px; height: 140px;" src="images/demoshot.gif" alt=""></a>
+										</div>
+									</div>
+								
+								</section>
+							</article>
+
+						<!-- Blog -->
+							<article id="blog" class="panel">
+								<header>
+									<h2>Resume</h2>
+								</header>
+								<h4> Under Construction</h4>
+							</article>
+
+					</div>
+		
+				<!-- Footer -->
+					<div id="footer">
+						<ul class="links">
+							<li>&copy;2014 Dinh Huynh</li>
+						</ul>
+					</div>
+		
 			</div>
-			<div class="col-md-9 pic" style="border-color: transparent; margin-top:0">
-				<div class="tabset" id="tabset1">
-					<a id="a" class="tab {content:'cont_1'}">About Me</a>
-					<a id="d" class="tab {content:'cont_2'}">Projects</a>
-					<a id="d" class="tab {content:'cont_3'}">Resume</a>
-				</div>
-				<div id="cont_1">
-					<div class="row" style="margin:0px 10px 10px 10px">
-						<img id="screen" src="img/Tower.jpg" width="300" height="400"  />
-						<!-- <img id="screen" src="img/search screen.png" />
-						<img id="screen" src="img/details screen.png" />
-						<a rel="leanModal" href="#mike">
-							<img id="screen" src="img/mini_mike.png" />
-							<div style="text-align:right">
-								Click to read feedback
-							</div> -->
-						</a>
-						<div id="mike">
-							<iframe class="popup2" src="img/Mike.PNG" ></iframe>
-						</div>
-					</div>	
-					<div>
-						<h4>About Me</h4>
-						University of Texas at Austin | May 2016<br> 
-						<li>I am a Computer Science major at UT. In my spare time I love to explore the beautiful <br>city of Austin and visit all the tasteful resturants. I also love to play volleyball and of course, code!</li>
-						<!-- <li>Created web services and designed the JSON objects to support the <br> SLAMobile applicationin HP mobility campaign</li>
-						<li>Added and graphed features to the data analytics page</li> -->
-						<li><b>Skills: HTML, CSS, Javascript, Java, C#</b></li>
-					</div>
-				</div>					
-				<div id="cont_2">
-					<img id="screen" src="img/page-under-construction.jpg" />
-					<!-- <img id="screen" src="img/graph.PNG" /> -->
-					<div>
-						<h4>Thank you for looking at my website!</h4>
-						<!-- Amherst, MA | Summer 2012<br> --> 
-						<li>This page is currently under construction.</li>
-						<li>Please check back at a later time</li>
-						<!-- <a rel="leanModal" href="#report">	
-							<li>Click here to read my report</li>
-						</a>
-						<div id="report" >
-							<iframe class="popup" src="img/Final_Report.pdf" ></iframe>
-						</div>
-						<li><b>Skills: GNUPlot, MySQL, Shell scripting</b></li> -->
-					</div>
-				</div>
-				<div id="cont_3">
-					<img id="screen" src="img/page-under-construction.jpg" />
-					<!-- <img id="screen" src="img/graph.PNG" /> -->
-					<div>
-						<h4>Thank you for looking at my website!</h4>
-						<!-- Amherst, MA | Summer 2012<br> --> 
-						<li>This page is currently under construction.</li>
-						<li>Please check back at a later time</li>
-						<!-- <a rel="leanModal" href="#report">	
-							<li>Click here to read my report</li>
-						</a>
-						<div id="report" >
-							<iframe class="popup" src="img/Final_Report.pdf" ></iframe>
-						</div>
-						<li><b>Skills: GNUPlot, MySQL, Shell scripting</b></li> -->
-					</div>
-				</div>
-			</div>
-		</div>
+
 	</body>
-	</html>
+</html>
