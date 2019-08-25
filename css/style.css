@@ -165,3 +165,31 @@ section{
 .down{
     color: var(--main-font);
 }
+@media screen and (max-width:800px){
+    #cover h1{
+        font-size: xx-large;
+        letter-spacing: 0.6em;
+    }
+    
+    #cover h2{
+        letter-spacing:15px;
+        font-size: x-small;
+        letter-spacing: 0.4rem;
+        /* background-color: red; */
+    }
+    #aboutMe{
+        top:15%;
+    }
+    #aboutMe div{
+        width:95%;
+        /* top:10%; */
+        margin:25px auto;
+        font-size:1rem;
+        line-height:1.4rem;
+        letter-spacing:1px;
+    }
+    footer{
+        font-size: .6rem;
+        top: 110%;
+    }
+}
